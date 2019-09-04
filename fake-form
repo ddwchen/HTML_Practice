@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>My Registration Form</title>
+</head>
+<p>My Registration Form</p>
+<form action = "process.php" method = "post">
+    <label for = "first_name">First Name</label>
+    <input type = "text" id = "first_name" name = "first_name">
+<p></p>
+    <label for = "last_name">Last Name</label>
+    <input type = "text" id = "last_name" name = "last_name">
+<p></p>
+    <label for = "email">Email</label>
+    <input type = "text" id = "email" name = "email">
+<p></p>
+    <label for = "password">Password</label>
+    <input type = "text" id = "password" name = "password">
+<p></p>
+    <label for = "password">PW Confirm</label>
+    <input type = "text" id = "pwconfirm" name = "password">
+<p></p>
+    <label for = "password">Birthday</label>
+    <input type = "text" id = "birthday" name = "mm/dd/yyyy">
+<p></p>
+    <label for = "male">Male</label>
+    <input type = "radio" id = "male" name = "gender" value = "male">
+    <label for = "female">Female</label>
+    <input type = "radio" id = "female" name = "gender" value = "female">
+    <label for = "other">Other</label>
+    <input type = "radio" id = "other" name = "gender" value = "other">
+
+    <p>A short description about yourself:</p>
+    <textarea name = "description"></textarea>
+
+    <p>Favorite Language</p>
+    <select name = "language">
+        <option value = "Javascript">Javascript</option>
+        <option value = "HTML">HTML</option>
+        <option value = "CSS">CSS</option>
+    </select>
+    <p></p>
+    <input type = "submit" value = "Submit">
+</form>
