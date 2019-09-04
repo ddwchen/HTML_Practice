@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset = "utf-8">
+        <title>Diana's Fake Blog</title>
+        <meta name = "description" content = "Welcome to my fake blog! Here you can find fun info about me.">
+    </header>
+    <body>
+        <h1>Diana's Fake Blog</h1>
+        <h2>Thanks for stopping by!</h2>
+        <p>I am an attorney turned travel blogger from Chicago (and soon to be full stack developer)! You can check out my blog 
+            <a href = "www.mvmtblog.com">here</a>.
+        </p>
+        <p>Did you know I attended eight different schools between K-12? Prior to living in Chicago, I've lived in quite a few other places. Here is a list of some of the places I've lived in, starting from the most recent place I've lived in prior to Chicago:</p>
+            <ol>
+                <li>Ann Arbor, MI</li>
+                <li>Troy, MI</li>
+                <li>Farmington Hills, MI</li>
+                <li>Harrisburg, PA</li>
+                <li>Hattiesburg, MS</li>
+                <li>Nanjing, China</li>
+            </ol>
+        <p>Here, I'll break it down for you even further so you know exactly which years I lived in which cities and for which length of time:</p>    
+            <table>
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Year(s)</th>
+                        <th># of Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ann Arbor, MI</td>
+                        <td>2008-2011</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Troy, MI</td>
+                        <td>1999-2008</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Farmington Hills, MI</td>
+                        <td>1998-1999</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Harrisburg, PA</td>
+                        <td>1996-1998</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Hattiesburg, MS</td>
+                        <td>1994-1996</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Nanjing, China</td>
+                        <td>1990-1994</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        <p>And here is a list of cities I'd love to live in one day (in no particular order)</p>
+            <ul>
+                <li>Berlin, Germany</li>
+                <li>Reykjavik, Iceland</li>
+                <li>Copenhagen, Denmark</li>
+                <li>Chiang Mai, Thailand</li>
+                <li>Tokyo, Japan</li>
+            </ul>
+        <form action = "process.php" method = "post">
+            <h3>Sign up for my email newsletter to get updates on my life!</h3>
+            <label for = "first_name">First Name:</label>
+            <input type = "text" id = "first_name" name = "first_name">
+            <br>
+            
+            <label for = "email">Email:</label>
+            <input type = "text" id = "email" name = "email">
+
+            <h3>Please select your location:</h3>
+            <label for = "US">US</label>
+            <input type = "radio" id = "US" name = "location" value = "US">
+
+            <label for = "Europe">Europe</label>
+            <input type = "radio" id = "Europe" name = "location" value = "Europe">
+
+            <label for = "Other">Other</label>
+            <input type = "radio" id = "Other" name = "location" value = "Other">
+
+            <h3>What would you like to receive updates on? (you can select multiple)</h3>
+
+            <label for = "Personal">Personal</label>
+            <input type = "checkbox" id = "personal" name = "category" value = "personal">
+            <br>
+
+            <label for = "Business">Business</label>
+            <input type = "checkbox" id = "business" name = "category" value = "business">
+            <br>
+
+            <label for = "Travels">Travels</label>
+            <input type = "checkbox" id = "travels" name = "category" value = "travels">
+            <br>
+
+            <label for = "Jokes">Jokes</label>
+            <input type = "checkbox" id = "jokes" name = "category" value = "jokes">
+            <br>
+
+            <label for = "Wellness">Wellness</label>
+            <input type = "checkbox" id = "wellness" name = "cateogry" value = "wellness">
+            <br>
+            <br>
+            <input type = "submit" value = "Click here to sign up">
+        </form>
+    </body>
+</html>
